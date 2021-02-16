@@ -1,0 +1,40 @@
+h1  {
+    background-color: violet;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+h2  {
+    background-color: lightsalmon;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+main    {
+    background-color: rgb(7, 206, 139);
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+section {
+    background-color:   paleturquoise;
+    margin: 50px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 50%;
+}
+h3  {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+body    {
+    background-color: lightpink;
+}
+footer  {
+    background-color: rgb(238, 238, 238);
+
+}
