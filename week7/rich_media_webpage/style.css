@@ -1,0 +1,29 @@
+body    {
+    font-family: 'Vidaloka', serif;    
+}
+.bg-video   {   
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+main p {
+    font-size: 5rem;
+    margin: 5rem 2rem;
+    color: white;
+    background: rgba(0, 0, 0, .5);
+    padding: 1em;
+    max-width: 800px;
+
+}
+header  {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: white;
+    font-size: 4rem;
+}
