@@ -1,0 +1,43 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background: grey;
+}
+
+.phone-container  {
+    background: saddlebrown;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: .75rem;
+    border-radius: 3vmin;
+}  
+
+.row    {
+    display: flex;
+}
+
+.app    {
+    color: lavenderblush;
+    text-decoration: none;
+    font-size: 3vmin;
+    background: darkolivegreen;
+    border-radius: 1vmin;
+
+    width: 12vmin;
+    height: 12vmin;
+    margin: .5vmin;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app:hover  {
+    background: pink;
+    color: seagreen;
+}
