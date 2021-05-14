@@ -13,7 +13,7 @@ body  {
 }
 .links  {
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
+    display:inline-flex;
     border-radius: 2vmin;
     background: snow;
     justify-content: center;
