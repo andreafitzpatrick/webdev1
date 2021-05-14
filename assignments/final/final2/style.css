@@ -1,0 +1,58 @@
+body    {
+    background: plum;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: navy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3  {
+    font-size: 15px;
+}
+.box    {
+    position: relative;
+    height: 20px;
+    width: 300px;
+    border: 15px solid navy;
+    border-radius: 20px;
+}
+.box .middle {
+    position: relative;
+    background: #fc73b5;
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: loading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+@keyframes  loading {
+    0%{
+        color: #fc73b5;
+        width: 0%;
+        height: 20px;
+    }
+    25%{
+        color: #fc73b5;
+        width: 25%;
+        height: 20px;  
+    }
+    50%{
+        color: #fc73b5;
+        width: 50%;
+        height: 20px;
+    }
+    75%{
+        color: #fc73b5;
+        width: 75%;
+        height: 20px;
+    }
+    100%{
+        color: #fc73b5;
+        width: 100%;
+        height: 20px;
+    }
+}
