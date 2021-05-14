@@ -27,7 +27,7 @@ h3  {
     animation-name: loading;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: linear;
+    animation-direction:normal;
 }
 @keyframes  loading {
     0%{
